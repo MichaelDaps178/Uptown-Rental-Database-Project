@@ -1,36 +1,53 @@
-# Uptown-Rental-Database-Project
-This project is a MySQL relational database system built for Uptown Rentals, a startup that rents musical instruments to individual customers. The system models and manages key aspects of the business, including instrument inventory, customer information, staff roles, rentals, returns, fines, and maintenance records.
+Uptown Rentals Database Project
 
-- Overview
--The database was designed using an Enhanced Entity-Relationship (EER) model in MySQL Workbench, then synchronized to generate and populate tables. Data was derived from sample rental records and hypothetical entries to simulate real-world use.
 
-- Key Features
-Instrument categorization by type (e.g., Strings, Woodwinds) and rental tier (e.g., Basic, Premium)
+This project was developed as part of an academic assignment to design a relational database for a **fictional business**, *Uptown Rentals*, a startup musical instrument rental company. The goal was to replace a spreadsheet-based system with a structured database using **MySQL**.
 
-Customer registration with age, contact, and address information
+The project includes:
 
-Rental tracking including fees, dates, and overdue penalties
+- ✅ A fully normalized relational schema  
+- ✅ An **Enhanced Entity-Relationship (EER)** diagram created in MySQL Workbench  
+- ✅ Sample data simulating real-world rentals  
+- ✅ A complete set of SQL queries addressing realistic business scenarios
 
-Staff management with roles and rental oversight
+---
 
-Maintenance logging for damaged or aging instruments
+## 📊 Business Queries Answered
 
-SQL queries for business reporting and analytics
+The following business questions were answered using SQL:
 
- - SQL Capabilities
-The project includes a .sql script (uptownRentals<YourName>.sql) with SQL programs that answer questions such as:
+- **a.** List of all instrument rentals  
+- **b.** Youngest and oldest customers  
+- **c.** Aggregated rental amounts per customer (sorted highest to lowest)  
+- **d.** Customer with the most rentals overall  
+- **e.** Most active customer in January 2025 and their average rental fee  
+- **f.** Staff member with the most rentals in January 2025  
+- **g.** Days overdue for rentals by customer  
+- **h.** Total rental amount by rental tier  
+- **i.** Top three staff members by total rental value  
+- **j.** Total rental amount by instrument type (Flute or Bass Guitar)  
+- **k.** Customers with two or more overdue rentals  
+- **l.** Rentals requiring maintenance or returned damaged in 2025  
+- **m.** Custom query: total overdue rentals via subquery  
+- **n.** Custom query: customers with 3 or more Woodwind rentals  
 
-Who are the top customers by rental total?
+## 📂 Files Included
 
-Which instruments incur the most late fees?
+- [`uptownMichaelOpokuDapaah.sql`](./uptownMichaelOpokuDapaah.sql): Full SQL script with schema creation, data population, and all queries  
+- [`uptown.mwb`](./uptown.mwb): MySQL Workbench file containing the full EER diagram  
 
-What is the rental distribution by instrument type?
+---
 
-Who are the top-performing staff by rental volume?
+## 💻 Tools Used
 
-🧪 Technologies Used
-MySQL Workbench
+- MySQL Workbench  
+- SQL (Structured Query Language)  
+- Git + GitHub for version control
 
-MySQL Server
+---
 
-SQL (DDL & DML)
+## 📬 Contact
+
+For questions or collaboration, feel free to reach out at [MichaelDaps178@gmail.com](mailto:MichaelDaps178@gmail.com).
+
+
