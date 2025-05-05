@@ -1,7 +1,7 @@
 Uptown Rentals Database Project
 
 
-This was a project I developed in my database management course, in which I  designed a relational database for a **fictional business**, *Uptown Rentals*, a startup musical instrument rental company. The goal was to replace a spreadsheet-based system with a structured database using **MySQL**. This was done by intitally normalizing the given data, making improvements such as creating and adding new entities and attributes, establishing the primary and foreign keys, then creating an EER Model. After the EER was made I then created tables and populated them with the improved data. After this was done, all that was left to do was ask queries to answer the listed question, which allowed me to test the database the assure it was working correctly.
+This was a project I developed in my database management course, in which I  designed a relational database for a **fictional business**, *Uptown Rentals*, a startup musical instrument rental company. The goal was to replace a spreadsheet-based system with a structured database using **MySQL**. This was done by initially normalizing the given data, making improvements such as creating and adding new entities and attributes, establishing the primary and foreign keys, then creating an EER Model. After the EER was made I then created tables and populated them with the improved data. After this was done, all that was left to do was ask queries to answer the listed question, which allowed me to test the database the assure it was working correctly.
 
 The project includes:
 
